@@ -74,10 +74,6 @@ Note that some shells handle certain characters like the `?` or `*` or things th
 ai 'what is my ip address'
 ```
 
-### Chat mode
-
-![Chat demo](https://user-images.githubusercontent.com/844291/232889699-e13fb3fe-1659-4583-80ee-6c58d1bcbd06.gif)
-
 ```bash
 ai chat
 ```
