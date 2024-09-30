@@ -22,6 +22,9 @@
     "build": "pkgroll",
     "release:patch": "npm run build && npm version patch && npm run build && npm publish && git push --follow-tags"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "@clack/core": "^0.3.3",
     "@clack/prompts": "^0.6.3",
