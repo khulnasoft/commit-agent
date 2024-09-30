@@ -1,4 +1,4 @@
-name: PR Commit
+name: Test CommitMate
 
 on: [pull_request]
 

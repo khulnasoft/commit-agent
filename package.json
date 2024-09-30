@@ -1,18 +1,18 @@
 {
   "name": "commitmate",
   "description": "A friendly assistant for your commits.",
-  "version": "1.0.0",
+  "version": "1.0.10",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/khulnasoft/CommitMate"
+    "url": "https://github.com/KhulnaSoft/commitmate"
   },
   "files": [
     "dist"
   ],
   "bin": {
     "commitmate": "./dist/cli.mjs",
-    "ai": "./dist/cli.mjs"
+    "getcommit": "./dist/cli.mjs"
   },
   "scripts": {
     "start": "jiti ./src/cli.ts",
@@ -21,9 +21,6 @@
     "typecheck": "tsc",
     "build": "pkgroll",
     "release:patch": "npm run build && npm version patch && npm run build && npm publish && git push --follow-tags"
-  },
-  "engines": {
-    "node": ">=14.0.0"
   },
   "dependencies": {
     "@clack/core": "^0.3.3",
@@ -38,7 +35,7 @@
     "i18next": "^22.4.15",
     "ini": "^4.0.0",
     "kolorist": "^1.7.0",
-    "openai": "^4.65.0"
+    "openai": "^3.2.1"
   },
   "devDependencies": {
     "@types/dedent": "^0.7.0",

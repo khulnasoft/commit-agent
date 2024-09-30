@@ -1,24 +1,24 @@
-# CommitMate - A friendly assistant for your commits.
-
+# CommitMate
+<h4>
+   A friendly assistant for your commits.
+</h4>
 <p>
-<a href="https://www.npmjs.com/package/commitmate"><img src="https://img.shields.io/npm/v/commitmate" alt="Current version"></a>
-
+   <a href="https://www.npmjs.com/package/commitmate"><img src="https://img.shields.io/npm/v/commitmate" alt="Current version"></a>
 </p>
 
 <p>
-Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
-
+   Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
 </p>
 
 <br>
 
-# Commit Mate
+# CommitMate
 
 ## Setup
 
 > The minimum supported version of Node.js is v14
 
-1. Install _ai shell_:
+1. Install _commit mate_:
 
    ```sh
    npm install -g commitmate
@@ -31,7 +31,7 @@ Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Cop
 3. Set the key so commitmate can use it:
 
    ```sh
-   ai config set OPENAI_KEY=<your token>
+   getcommit config set OPENAI_KEY=<your token>
    ```
 
    This will create a `.commitmate` file in your home directory.
@@ -39,13 +39,13 @@ Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Cop
 ## Usage
 
 ```bash
-ai <prompt>
+getcommit <prompt>
 ```
 
 For example:
 
 ```bash
-ai list all log files
+getcommit list all log files
 ```
 
 Then you will get an output like this, where you can choose to run the suggested command, revise the command via a prompt, or cancel:
@@ -71,11 +71,12 @@ Then you will get an output like this, where you can choose to run the suggested
 Note that some shells handle certain characters like the `?` or `*` or things that look like file paths specially. If you are getting strange behaviors, you can wrap the prompt in quotes to avoid issues, like below:
 
 ```bash
-ai 'what is my ip address'
+getcommit 'what is my ip address'
 ```
 
+
 ```bash
-ai chat
+getcommit chat
 ```
 
 With this mode, you can engage in a conversation with the AI and receive helpful responses in a natural, conversational manner directly through the CLI:
@@ -86,7 +87,7 @@ With this mode, you can engage in a conversation with the AI and receive helpful
 ◇  You:
 │  how do I serve a redirect in express
 │
-◇  Commit Mate:
+◇  CommitMate:
 
 In Express, you can use the `redirect()` method to serve a redirect. The `redirect()` method takes one argument, which is the URL that you want to redirect to.
 
@@ -104,13 +105,13 @@ app.get('/oldurl', (req, res) => {
 You can disable and skip the explanation section by using the flag `-s` or `--silent`
 
 ```bash
-ai -s list all log files
+getcommit -s list all log files
 ```
 
 or save the option as a preference using this command:
 
 ```bash
-ai config set SILENT_MODE=true
+getcommit config set SILENT_MODE=true
 ```
 
 ### Custom API endpoint
@@ -118,36 +119,33 @@ ai config set SILENT_MODE=true
 You can custom OpenAI API endpoint to set OPENAI_API_ENDPOINT（default: `https://api.openai.com/v1`）
 
 ```sh
-ai config set OPENAI_API_ENDPOINT=<your proxy endpoint>
+getcommit config set OPENAI_API_ENDPOINT=<your proxy endpoint>
 ```
 
 ### Set Language
 
-![Language UI](https://user-images.githubusercontent.com/1784873/235330029-0a3b394c-d797-41d6-8717-9a6b487f1ae8.gif)
 
-The Commit Mate's default language is English, but you can easily switch to your preferred language by using the corresponding language keys, as shown below:
+The CommitMate's default language is English, but you can easily switch to your preferred language by using the corresponding language keys, as shown below:
 
-| Language            | Key     |
-| ------------------- | ------- |
-| English             | en      |
-| Simplified Chinese  | zh-Hans |
-| Traditional Chinese | zh-Hant |
-| Spanish             | es      |
-| Japanese            | jp      |
-| Korean              | ko      |
-| French              | fr      |
-| German              | de      |
-| Russian             | ru      |
-| Ukrainian           | uk      |
-| Vietnamese          | vi      |
-| Arabic              | ar      |
-| Portuguese          | pt      |
-| Turkish             | tr      |
+| Language   | Key |
+| ---------- | --- |
+| English    | en  |
+| Spanish    | es  |
+| Japanese   | jp  |
+| Korean     | ko  |
+| French     | fr  |
+| German     | de  |
+| Russian    | ru  |
+| Ukrainian  | uk  |
+| Vietnamese | vi  |
+| Arabic     | ar  |
+| Portuguese | pt  |
+| Turkish    | tr  |
 
-For instance, if you want to switch to Simplified Chinese, you can do so by setting the LANGUAGE value to zh-Hans:
+For instance, if you want to switch to Simplified Chinese, you can do so by setting the LANGUAGE value to en:
 
 ```sh
-ai config set LANGUAGE=zh-Hans
+getcommit config set LANGUAGE=en
 ```
 
 This will set your language to Simplified Chinese.
@@ -157,7 +155,7 @@ This will set your language to Simplified Chinese.
 To use a more visual interface to view and set config options you can type:
 
 ```bash
-ai config
+getcommit config
 ```
 
 To get an interactive UI like below:
@@ -178,7 +176,7 @@ To get an interactive UI like below:
 Check the installed version with:
 
 ```bash
-ai --version
+getcommit --version
 ```
 
 If it's not the [latest version](https://github.com/KhulnaSoft/commitmate/tags), run:
@@ -187,10 +185,10 @@ If it's not the [latest version](https://github.com/KhulnaSoft/commitmate/tags),
 npm update -g commitmate
 ```
 
-Or just use AI shell:
+Or just use getcommit:
 
 ```bash
-ai update
+getcommit update
 ```
 
 ## Common Issues
@@ -208,5 +206,3 @@ I am not a bash wizard, and am dying for access to the copilot CLI, and got impa
 ## Contributing
 
 If you want to help fix a bug or implement a feature in [Issues](https://github.com/KhulnaSoft/commitmate/issues) (tip: look out for the `help wanted` label), checkout the [Contribution Guide](CONTRIBUTING.md) to learn how to setup the project.
-
-<br><br>

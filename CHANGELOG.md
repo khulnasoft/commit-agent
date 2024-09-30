@@ -68,7 +68,7 @@
 ## 0.1.14
 
 - Adds chat mode
-- Fixes "ai update" to not eagerly capture
+- Fixes "getcommit update" to not eagerly capture
 - Improve operating system identification
 
 ## 0.1.13
@@ -81,7 +81,7 @@
 
 ## 0.1.11
 
-- `ai update` command
+- `getcommit update` command
 - Minor UX improvements and fixes
 
 ## 0.1.10
@@ -90,7 +90,7 @@
 
 ## 0.1.9
 
-- Visual config UI (from `ai config ui`)
+- Visual config UI (from `getcommit config ui`)
 
 ## 0.1.8
 
@@ -123,7 +123,7 @@
 
 ## 0.1.1
 
-- Minor UX improvement ("Commit Mate" vs "commitmate")
+- Minor UX improvement ("CommitMate" vs "commitmate")
 
 ## 0.1.0
 

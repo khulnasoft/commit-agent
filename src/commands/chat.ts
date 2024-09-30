@@ -53,7 +53,7 @@ export default command(
         apiEndpoint,
       });
 
-      infoSpin.stop(`${green('Commit Mate:')}`);
+      infoSpin.stop(`${green('CommitMate:')}`);
       console.log('');
       const fullResponse = await readResponse(
         process.stdout.write.bind(process.stdout)

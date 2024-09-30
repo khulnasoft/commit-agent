@@ -7,7 +7,7 @@ export default command(
   {
     name: 'update',
     help: {
-      description: 'Update Commit Mate to the latest version',
+      description: 'Update CommitMate to the latest version',
     },
   },
   async () => {
