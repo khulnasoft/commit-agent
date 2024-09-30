@@ -3,21 +3,6 @@
   "description": "A friendly assistant for your commits.",
   "version": "1.0.0",
   "type": "module",
-  "dependencies": {
-    "@clack/core": "latest",
-    "@clack/prompts": "latest",
-    "@dqbd/tiktoken": "^1.0.2",
-    "@nexssp/os": "^2.0.35",
-    "axios": "^1.3.5",
-    "cleye": "^1.3.2",
-    "clipboardy": "^2.3.0",
-    "dedent": "^0.7.0",
-    "execa": "^7.1.1",
-    "i18next": "^22.4.15",
-    "ini": "^4.0.0",
-    "kolorist": "^1.7.0",
-    "openai": "^4.65.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/khulnasoft/CommitMate"
@@ -36,6 +21,21 @@
     "typecheck": "tsc",
     "build": "pkgroll",
     "release:patch": "npm run build && npm version patch && npm run build && npm publish && git push --follow-tags"
+  },
+  "dependencies": {
+    "@clack/core": "latest",
+    "@clack/prompts": "latest",
+    "@dqbd/tiktoken": "^1.0.2",
+    "@nexssp/os": "^2.0.35",
+    "axios": "^1.3.5",
+    "cleye": "^1.3.2",
+    "clipboardy": "^2.3.0",
+    "dedent": "^0.7.0",
+    "execa": "^7.1.1",
+    "i18next": "^22.4.15",
+    "ini": "^4.0.0",
+    "kolorist": "^1.7.0",
+    "openai": "^4.65.0"
   },
   "devDependencies": {
     "@types/dedent": "^0.7.0",
