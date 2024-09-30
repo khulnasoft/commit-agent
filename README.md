@@ -1,15 +1,13 @@
 # CommitMate - A friendly assistant for your commits.
 
-<p align="center">
-   <a href="https://www.npmjs.com/package/commitmate"><img src="https://img.shields.io/npm/v/commitmate" alt="Current version"></a>
+<p">
+<a href="https://www.npmjs.com/package/commitmate"><img src="https://img.shields.io/npm/v/commitmate" alt="Current version"></a>
+
 </p>
 
-<p align="center">
-   <img alt="Gif Demo" src="https://user-images.githubusercontent.com/844291/230413167-773845e7-4c9f-44a5-909c-02802b5e49f6.gif" >
-<p>
+<p">
+Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
 
-<p align="center">
-   Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
 </p>
 
 <br>
