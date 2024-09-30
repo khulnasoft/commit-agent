@@ -1,11 +1,11 @@
 # CommitMate - A friendly assistant for your commits.
 
-<p">
+<p>
 <a href="https://www.npmjs.com/package/commitmate"><img src="https://img.shields.io/npm/v/commitmate" alt="Current version"></a>
 
 </p>
 
-<p">
+<p>
 Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
 
 </p>
