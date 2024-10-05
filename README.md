@@ -31,7 +31,7 @@
 3. Set the key so commitmate can use it:
 
    ```sh
-   getcommit config set OPENAI_KEY=<your token>
+   ai config set OPENAI_KEY=<your token>
    ```
 
    This will create a `.commitmate` file in your home directory.
@@ -39,13 +39,13 @@
 ## Usage
 
 ```bash
-getcommit <prompt>
+ai <prompt>
 ```
 
 For example:
 
 ```bash
-getcommit list all log files
+ai list all log files
 ```
 
 Then you will get an output like this, where you can choose to run the suggested command, revise the command via a prompt, or cancel:
@@ -71,12 +71,12 @@ Then you will get an output like this, where you can choose to run the suggested
 Note that some shells handle certain characters like the `?` or `*` or things that look like file paths specially. If you are getting strange behaviors, you can wrap the prompt in quotes to avoid issues, like below:
 
 ```bash
-getcommit 'what is my ip address'
+ai 'what is my ip address'
 ```
 
 
 ```bash
-getcommit chat
+ai chat
 ```
 
 With this mode, you can engage in a conversation with the AI and receive helpful responses in a natural, conversational manner directly through the CLI:
@@ -105,13 +105,13 @@ app.get('/oldurl', (req, res) => {
 You can disable and skip the explanation section by using the flag `-s` or `--silent`
 
 ```bash
-getcommit -s list all log files
+ai -s list all log files
 ```
 
 or save the option as a preference using this command:
 
 ```bash
-getcommit config set SILENT_MODE=true
+ai config set SILENT_MODE=true
 ```
 
 ### Custom API endpoint
@@ -119,7 +119,7 @@ getcommit config set SILENT_MODE=true
 You can custom OpenAI API endpoint to set OPENAI_API_ENDPOINT（default: `https://api.openai.com/v1`）
 
 ```sh
-getcommit config set OPENAI_API_ENDPOINT=<your proxy endpoint>
+ai config set OPENAI_API_ENDPOINT=<your proxy endpoint>
 ```
 
 ### Set Language
@@ -145,7 +145,7 @@ The CommitMate's default language is English, but you can easily switch to your 
 For instance, if you want to switch to Simplified Chinese, you can do so by setting the LANGUAGE value to en:
 
 ```sh
-getcommit config set LANGUAGE=en
+ai config set LANGUAGE=en
 ```
 
 This will set your language to Simplified Chinese.
@@ -155,7 +155,7 @@ This will set your language to Simplified Chinese.
 To use a more visual interface to view and set config options you can type:
 
 ```bash
-getcommit config
+ai config
 ```
 
 To get an interactive UI like below:
@@ -176,7 +176,7 @@ To get an interactive UI like below:
 Check the installed version with:
 
 ```bash
-getcommit --version
+ai --version
 ```
 
 If it's not the [latest version](https://github.com/KhulnaSoft/commitmate/tags), run:
@@ -185,10 +185,10 @@ If it's not the [latest version](https://github.com/KhulnaSoft/commitmate/tags),
 npm update -g commitmate
 ```
 
-Or just use getcommit:
+Or just use ai:
 
 ```bash
-getcommit update
+ai update
 ```
 
 ## Common Issues

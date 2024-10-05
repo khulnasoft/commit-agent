@@ -72,7 +72,7 @@ export async function generateCompletion({
   try {
     const completion = await openAi.createChatCompletion(
       {
-        model: model || 'gpt-3.5-turbo',
+        model: model || 'gpt-4o-mini',
         messages: Array.isArray(prompt)
           ? prompt
           : [{ role: 'user', content: prompt }],
@@ -253,7 +253,7 @@ export const readData =
         const data = payload.replaceAll(/(\n)?^data:\s*/g, '');
         try {
           const delta = JSON.parse(data.trim());
-          return delta.choices?.[0].delta?.content ?? '';
+          return delta.choices?.[0]?.delta?.content ?? '';
         } catch (error) {
           return `Error with JSON.parse and ${payload}.\n${error}`;
         }

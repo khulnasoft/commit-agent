@@ -18,7 +18,7 @@ export const handleCliError = (error: any) => {
       )}:`
     );
     console.error(
-      `${indent}https://github.com/KhulnaSoft/commitmate/issues/new`
+      `${indent}https://github.com/khulnasoft/commitmate/issues/new`
     );
   }
 };

@@ -1,4 +1,6 @@
 import i18next from 'i18next';
+import zhHansTranslation from '../locales/zh-Hans.json';
+import zhHantTranslation from '../locales/zh-Hant.json';
 import esTranslation from '../locales/es.json';
 import jpTranslation from '../locales/jp.json';
 import koTranslation from '../locales/ko.json';
@@ -15,6 +17,8 @@ let currentlang: string = 'en';
 
 const languages: Record<string, string> = {
   en: 'English',
+  'zh-Hans': '简体中文', // simplified Chinese
+  'zh-Hant': '繁體中文', // traditional Chinese
   es: 'Español', // Spanish
   jp: '日本語', // Japanese
   ko: '한국어', // Korean
@@ -32,6 +36,12 @@ i18next.init({
   lng: currentlang,
   fallbackLng: 'en',
   resources: {
+    'zh-Hans': {
+      translation: zhHansTranslation,
+    },
+    'zh-Hant': {
+      translation: zhHantTranslation,
+    },
     es: {
       translation: esTranslation,
     },

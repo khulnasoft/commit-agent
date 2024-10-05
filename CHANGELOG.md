@@ -1,3 +1,8 @@
+## 1.0.12
+
+- Bug fixes
+- Default to gpt-4o-mini instead of gpt-3.5-turbo
+
 ## 1.0.8
 
 - Fix a bug causing completions to not display in some cases
@@ -30,7 +35,7 @@
 
 ## 1.0.1
 
-- Fix a typo ("to to" -> "to") [#78](https://github.com/KhulnaSoft/commitmate/pull/78)
+- Fix a typo ("to to" -> "to") [#78](https://github.com/khulnasoft/commitmate/pull/78)
 
 ## 1.0.0
 
@@ -39,19 +44,19 @@
 
 ## 0.1.23
 
-- Add support for Android [#75](https://github.com/KhulnaSoft/commitmate/pull/75)
+- Add support for Android [#75](https://github.com/khulnasoft/commitmate/pull/75)
 
 ## 0.1.22
 
-- Fix a crash on linux [#64](https://github.com/KhulnaSoft/commitmate/issues/64)
+- Fix a crash on linux [#64](https://github.com/khulnasoft/commitmate/issues/64)
 
 ## 0.1.21
 
-- Fix a bug preventing initial configuration [#69](https://github.com/KhulnaSoft/commitmate/issues/69)
+- Fix a bug preventing initial configuration [#69](https://github.com/khulnasoft/commitmate/issues/69)
 
 ## 0.1.20
 
-- Multi language support [#62](https://github.com/KhulnaSoft/commitmate/pull/62)
+- Multi language support [#62](https://github.com/khulnasoft/commitmate/pull/62)
 
 ## 0.1.19
 
@@ -68,7 +73,7 @@
 ## 0.1.14
 
 - Adds chat mode
-- Fixes "getcommit update" to not eagerly capture
+- Fixes "ai update" to not eagerly capture
 - Improve operating system identification
 
 ## 0.1.13
@@ -81,7 +86,7 @@
 
 ## 0.1.11
 
-- `getcommit update` command
+- `ai update` command
 - Minor UX improvements and fixes
 
 ## 0.1.10
@@ -90,7 +95,7 @@
 
 ## 0.1.9
 
-- Visual config UI (from `getcommit config ui`)
+- Visual config UI (from `ai config ui`)
 
 ## 0.1.8
 
@@ -123,7 +128,7 @@
 
 ## 0.1.1
 
-- Minor UX improvement ("CommitMate" vs "commitmate")
+- Minor UX improvement ("AI Shell" vs "commitmate")
 
 ## 0.1.0
 

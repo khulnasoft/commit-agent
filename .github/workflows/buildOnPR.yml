@@ -1,4 +1,4 @@
-name: Test CommitMate
+name: Build on PR
 
 on: [pull_request]
 

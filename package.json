@@ -1,30 +1,11 @@
 {
   "name": "commitmate",
-  "description": "A friendly assistant for your commits.",
-  "version": "1.0.10",
+  "description": "A CLI that converts natural language to shell commands.",
+  "version": "1.0.12",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/KhulnaSoft/commitmate"
-  },
-  "files": [
-    "dist"
-  ],
-  "bin": {
-    "commitmate": "./dist/cli.mjs",
-    "getcommit": "./dist/cli.mjs"
-  },
-  "scripts": {
-    "start": "jiti ./src/cli.ts",
-    "lint:fix": "prettier --write . && eslint --fix",
-    "lint": "prettier --check . && eslint",
-    "typecheck": "tsc",
-    "build": "pkgroll",
-    "release:patch": "npm run build && npm version patch && npm run build && npm publish && git push --follow-tags"
-  },
   "dependencies": {
-    "@clack/core": "^0.3.3",
-    "@clack/prompts": "^0.6.3",
+    "@clack/core": "latest",
+    "@clack/prompts": "latest",
     "@dqbd/tiktoken": "^1.0.2",
     "@nexssp/os": "^2.0.35",
     "axios": "^1.3.5",
@@ -36,6 +17,25 @@
     "ini": "^4.0.0",
     "kolorist": "^1.7.0",
     "openai": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khulnasoft/commitmate"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "commitmate": "./dist/cli.mjs",
+    "ai": "./dist/cli.mjs"
+  },
+  "scripts": {
+    "start": "jiti ./src/cli.ts",
+    "lint:fix": "prettier --write . && eslint --fix",
+    "lint": "prettier --check . && eslint",
+    "typecheck": "tsc",
+    "build": "pkgroll",
+    "release:patch": "npm run build && npm version patch && npm run build && npm publish && git push --follow-tags"
   },
   "devDependencies": {
     "@types/dedent": "^0.7.0",

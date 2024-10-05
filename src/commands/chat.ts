@@ -53,7 +53,7 @@ export default command(
         apiEndpoint,
       });
 
-      infoSpin.stop(`${green('CommitMate:')}`);
+      infoSpin.stop(`${green('AI Shell:')}`);
       console.log('');
       const fullResponse = await readResponse(
         process.stdout.write.bind(process.stdout)
