@@ -1,27 +1,28 @@
 # CommitMate
-<h4>
-   A friendly assistant for your commits.
+
+<h4 align="center">
+   A CLI that converts natural language to shell commands.
 </h4>
-<p>
-   <a href="https://www.npmjs.com/package/commitmate"><img src="https://img.shields.io/npm/v/commitmate" alt="Current version"></a>
+<p align="center">
+   <a href="https://www.npmjs.com/package/@khulnasoft/commitmate"><img src="https://img.shields.io/npm/v/@khulnasoft/commitmate" alt="Current version"></a>
 </p>
 
-<p>
+<p align="center">
    Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
 </p>
 
 <br>
 
-# CommitMate
+# AI Shell
 
 ## Setup
 
 > The minimum supported version of Node.js is v14
 
-1. Install _commit mate_:
+1. Install _ai shell_:
 
    ```sh
-   npm install -g commitmate
+   npm install -g @khulnasoft/commitmate
    ```
 
 2. Retrieve your API key from [OpenAI](https://platform.openai.com/account/api-keys)
@@ -74,6 +75,7 @@ Note that some shells handle certain characters like the `?` or `*` or things th
 ai 'what is my ip address'
 ```
 
+### Chat mode
 
 ```bash
 ai chat
@@ -87,7 +89,7 @@ With this mode, you can engage in a conversation with the AI and receive helpful
 ◇  You:
 │  how do I serve a redirect in express
 │
-◇  CommitMate:
+◇  AI Shell:
 
 In Express, you can use the `redirect()` method to serve a redirect. The `redirect()` method takes one argument, which is the URL that you want to redirect to.
 
@@ -124,28 +126,29 @@ ai config set OPENAI_API_ENDPOINT=<your proxy endpoint>
 
 ### Set Language
 
+The AI Shell's default language is English, but you can easily switch to your preferred language by using the corresponding language keys, as shown below:
 
-The CommitMate's default language is English, but you can easily switch to your preferred language by using the corresponding language keys, as shown below:
+| Language            | Key     |
+| ------------------- | ------- |
+| English             | en      |
+| Simplified Chinese  | zh-Hans |
+| Traditional Chinese | zh-Hant |
+| Spanish             | es      |
+| Japanese            | jp      |
+| Korean              | ko      |
+| French              | fr      |
+| German              | de      |
+| Russian             | ru      |
+| Ukrainian           | uk      |
+| Vietnamese          | vi      |
+| Arabic              | ar      |
+| Portuguese          | pt      |
+| Turkish             | tr      |
 
-| Language   | Key |
-| ---------- | --- |
-| English    | en  |
-| Spanish    | es  |
-| Japanese   | jp  |
-| Korean     | ko  |
-| French     | fr  |
-| German     | de  |
-| Russian    | ru  |
-| Ukrainian  | uk  |
-| Vietnamese | vi  |
-| Arabic     | ar  |
-| Portuguese | pt  |
-| Turkish    | tr  |
-
-For instance, if you want to switch to Simplified Chinese, you can do so by setting the LANGUAGE value to en:
+For instance, if you want to switch to Simplified Chinese, you can do so by setting the LANGUAGE value to zh-Hans:
 
 ```sh
-ai config set LANGUAGE=en
+ai config set LANGUAGE=zh-Hans
 ```
 
 This will set your language to Simplified Chinese.
@@ -165,7 +168,7 @@ To get an interactive UI like below:
 │  ○ OpenAI Key
 │  ○ OpenAI API Endpoint
 │  ○ Silent Mode
-│  ● Model (gpt-3.5-turbo)
+│  ● Model (gpt-4o-mini)
 │  ○ Language
 │  ○ Cancel
 └
@@ -179,13 +182,13 @@ Check the installed version with:
 ai --version
 ```
 
-If it's not the [latest version](https://github.com/KhulnaSoft/commitmate/tags), run:
+If it's not the [latest version](https://github.com/khulnasoft/commitmate/tags), run:
 
 ```bash
-npm update -g commitmate
+npm update -g @khulnasoft/commitmate
 ```
 
-Or just use ai:
+Or just use AI shell:
 
 ```bash
 ai update
@@ -205,4 +208,11 @@ I am not a bash wizard, and am dying for access to the copilot CLI, and got impa
 
 ## Contributing
 
-If you want to help fix a bug or implement a feature in [Issues](https://github.com/KhulnaSoft/commitmate/issues) (tip: look out for the `help wanted` label), checkout the [Contribution Guide](CONTRIBUTING.md) to learn how to setup the project.
+If you want to help fix a bug or implement a feature in [Issues](https://github.com/khulnasoft/commitmate/issues) (tip: look out for the `help wanted` label), checkout the [Contribution Guide](CONTRIBUTING.md) to learn how to setup the project.
+
+## Credit
+
+- Thanks to GitHub Copilot for their amazing tools and the idea for this
+- Thanks to Hassan and his work on [aicommits](https://github.com/Nutlope/aicommits) which inspired the workflow and some parts of the code and flows
+
+<br><br>

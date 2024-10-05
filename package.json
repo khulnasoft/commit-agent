@@ -1,5 +1,5 @@
 {
-  "name": "commitmate",
+  "name": "@khulnasoft/commitmate",
   "description": "A CLI that converts natural language to shell commands.",
   "version": "1.0.12",
   "type": "module",
