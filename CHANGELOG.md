@@ -128,7 +128,7 @@
 
 ## 0.1.1
 
-- Minor UX improvement ("AI Shell" vs "commitmate")
+- Minor UX improvement ("AI Commit" vs "commitmate")
 
 ## 0.1.0
 
