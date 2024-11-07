@@ -9,7 +9,7 @@
 
 <br>
 <h4>
-   A CLI that converts natural language to shell commands.
+   A CLI that assists with commit messages and version control tasks using natural language.
 </h4>
 # AI Commit
 
