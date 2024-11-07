@@ -53,8 +53,7 @@ export default command(
         apiEndpoint,
       });
 
-      import { projectName } from '../helpers/constants';
-      infoSpin.stop(`${green(`${projectName}:`)}`);
+      infoSpin.stop(`${green('AI Commit:')}`);
       console.log('');
       const fullResponse = await readResponse(
         process.stdout.write.bind(process.stdout)
