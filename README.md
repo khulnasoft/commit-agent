@@ -1,39 +1,39 @@
-# CommitMate
+# Commit-Agent
 
 <a aria-label="khulnasoft logo" href="https://khulnasoft.com">
   <img alt="" src="https://img.shields.io/badge/Made%20by%20khulnasoft-000000.svg?style=flat-square&logo=khulnasoft&labelColor=000">
 </a>
-<a href="https://www.npmjs.com/package/@khulnasoft/commitmate">
-  <img src="https://img.shields.io/npm/v/@khulnasoft/commitmate" alt="Current version">
+<a href="https://www.npmjs.com/package/@khulnasoft/commit-agent">
+  <img src="https://img.shields.io/npm/v/@khulnasoft/commit-agent" alt="Current version">
 </a>
 
 <br>
 <h4>
    A CLI that converts natural language to shell commands.
 </h4>
-# AI Shell
+# AI Commit
 
 ## Setup
 
 > The minimum supported version of Node.js is v14
 
-1. Install _ai shell_:
+1. Install _commit agent_:
 
    ```sh
-   npm install -g @khulnasoft/commitmate
+   npm install -g @khulnasoft/commit-agent
    ```
 
 2. Retrieve your API key from [OpenAI](https://platform.openai.com/account/api-keys)
 
    > Note: If you haven't already, you'll have to create an account and set up billing.
 
-3. Set the key so commitmate can use it:
+3. Set the key so commit-agent can use it:
 
    ```sh
    ai config set OPENAI_KEY=<your token>
    ```
 
-   This will create a `.commitmate` file in your home directory.
+   This will create a `.commit-agent` file in your home directory.
 
 ## Usage
 
@@ -87,7 +87,7 @@ With this mode, you can engage in a conversation with the AI and receive helpful
 ◇  You:
 │  how do I serve a redirect in express
 │
-◇  AI Shell:
+◇  AI Commit:
 
 In Express, you can use the `redirect()` method to serve a redirect. The `redirect()` method takes one argument, which is the URL that you want to redirect to.
 
@@ -124,7 +124,7 @@ ai config set OPENAI_API_ENDPOINT=<your proxy endpoint>
 
 ### Set Language
 
-The AI Shell's default language is English, but you can easily switch to your preferred language by using the corresponding language keys, as shown below:
+The AI Commit's default language is English, but you can easily switch to your preferred language by using the corresponding language keys, as shown below:
 
 | Language            | Key     |
 | ------------------- | ------- |
@@ -180,10 +180,10 @@ Check the installed version with:
 ai --version
 ```
 
-If it's not the [latest version](https://github.com/khulnasoft/commitmate/tags), run:
+If it's not the [latest version](https://github.com/khulnasoft/commit-agent/tags), run:
 
 ```bash
-npm update -g @khulnasoft/commitmate
+npm update -g @khulnasoft/commit-agent
 ```
 
 Or just use AI shell:
@@ -206,7 +206,7 @@ I am not a bash wizard, and am dying for access to the copilot CLI, and got impa
 
 ## Contributing
 
-If you want to help fix a bug or implement a feature in [Issues](https://github.com/khulnasoft/commitmate/issues) (tip: look out for the `help wanted` label), checkout the [Contribution Guide](CONTRIBUTING.md) to learn how to setup the project.
+If you want to help fix a bug or implement a feature in [Issues](https://github.com/khulnasoft/commit-agent/issues) (tip: look out for the `help wanted` label), checkout the [Contribution Guide](CONTRIBUTING.md) to learn how to setup the project.
 
 ## Credit
 
