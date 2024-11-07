@@ -1,13 +1,13 @@
 # CommitMate
 
-<h4 align="center">
+<h4>
    A CLI that converts natural language to shell commands.
 </h4>
-<p align="center">
+<p>
    <a href="https://www.npmjs.com/package/@khulnasoft/commitmate"><img src="https://img.shields.io/npm/v/@khulnasoft/commitmate" alt="Current version"></a>
 </p>
 
-<p align="center">
+<p>
    Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
 </p>
 
