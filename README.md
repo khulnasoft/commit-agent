@@ -3,9 +3,9 @@
 <a aria-label="khulnasoft logo" href="https://khulnasoft.com">
   <img alt="" src="https://img.shields.io/badge/Made%20by%20khulnasoft-000000.svg?style=flat-square&logo=khulnasoft&labelColor=000">
 </a>
-<p>
-   <a href="https://www.npmjs.com/package/@khulnasoft/commitmate"><img src="https://img.shields.io/npm/v/@khulnasoft/commitmate" alt="Current version"></a>
-</p>
+<a href="https://www.npmjs.com/package/@khulnasoft/commitmate">
+  <img src="https://img.shields.io/npm/v/@khulnasoft/commitmate" alt="Current version">
+</a>
 
 <p>
    Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
