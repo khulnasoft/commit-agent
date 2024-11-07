@@ -7,7 +7,8 @@ export default command(
   {
     name: 'update',
     help: {
-      description: 'Update AI Shell to the latest version',
+      import { projectName } from '../helpers/constants';
+      description: `Update ${projectName} to the latest version`,
     },
   },
   async () => {

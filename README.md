@@ -9,9 +9,9 @@
 
 <br>
 <h4>
-   A CLI that converts natural language to shell commands.
+   A CLI that assists with commit messages and version control tasks using natural language.
 </h4>
-# AI Shell
+# AI Commit
 
 ## Setup
 
@@ -87,7 +87,7 @@ With this mode, you can engage in a conversation with the AI and receive helpful
 ◇  You:
 │  how do I serve a redirect in express
 │
-◇  AI Shell:
+◇  AI Commit:
 
 In Express, you can use the `redirect()` method to serve a redirect. The `redirect()` method takes one argument, which is the URL that you want to redirect to.
 
@@ -124,7 +124,7 @@ ai config set OPENAI_API_ENDPOINT=<your proxy endpoint>
 
 ### Set Language
 
-The AI Shell's default language is English, but you can easily switch to your preferred language by using the corresponding language keys, as shown below:
+The AI Commit's default language is English, but you can easily switch to your preferred language by using the corresponding language keys, as shown below:
 
 | Language            | Key     |
 | ------------------- | ------- |
