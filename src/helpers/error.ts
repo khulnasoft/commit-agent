@@ -11,14 +11,14 @@ export const handleCliError = (error: any) => {
     if (error.stack) {
       console.error(dim(error.stack.split('\n').slice(1).join('\n')));
     }
-    console.error(`\n${indent}${dim(`commitmate v${version}`)}`);
+    console.error(`\n${indent}${dim(`commit-agent v${version}`)}`);
     console.error(
       `\n${indent}${i18n.t(
         'Please open a Bug report with the information above'
       )}:`
     );
     console.error(
-      `${indent}https://github.com/khulnasoft/commitmate/issues/new`
+      `${indent}https://github.com/khulnasoft/commit-agent/issues/new`
     );
   }
 };

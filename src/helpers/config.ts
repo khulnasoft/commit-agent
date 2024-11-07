@@ -66,7 +66,7 @@ type ValidConfig = {
   [Key in ConfigKeys]: ReturnType<(typeof configParsers)[Key]>;
 };
 
-const configPath = path.join(os.homedir(), '.commitmate');
+const configPath = path.join(os.homedir(), '.commit-agent');
 
 const fileExists = (filePath: string) =>
   fs.lstat(filePath).then(

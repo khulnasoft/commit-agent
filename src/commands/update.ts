@@ -12,7 +12,7 @@ export default command(
   },
   async () => {
     console.log('');
-    const command = `npm update -g @khulnasoft/commitmate`;
+    const command = `npm update -g @khulnasoft/commit-agent`;
     console.log(dim(`${i18n.t('Running')}: ${command}`));
     console.log('');
     await execaCommand(command, {

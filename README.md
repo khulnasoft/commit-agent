@@ -1,10 +1,10 @@
-# CommitMate
+# Commit-Agent
 
 <a aria-label="khulnasoft logo" href="https://khulnasoft.com">
   <img alt="" src="https://img.shields.io/badge/Made%20by%20khulnasoft-000000.svg?style=flat-square&logo=khulnasoft&labelColor=000">
 </a>
-<a href="https://www.npmjs.com/package/@khulnasoft/commitmate">
-  <img src="https://img.shields.io/npm/v/@khulnasoft/commitmate" alt="Current version">
+<a href="https://www.npmjs.com/package/@khulnasoft/commit-agent">
+  <img src="https://img.shields.io/npm/v/@khulnasoft/commit-agent" alt="Current version">
 </a>
 
 <br>
@@ -17,23 +17,23 @@
 
 > The minimum supported version of Node.js is v14
 
-1. Install _ai shell_:
+1. Install _commit agent_:
 
    ```sh
-   npm install -g @khulnasoft/commitmate
+   npm install -g @khulnasoft/commit-agent
    ```
 
 2. Retrieve your API key from [OpenAI](https://platform.openai.com/account/api-keys)
 
    > Note: If you haven't already, you'll have to create an account and set up billing.
 
-3. Set the key so commitmate can use it:
+3. Set the key so commit-agent can use it:
 
    ```sh
    ai config set OPENAI_KEY=<your token>
    ```
 
-   This will create a `.commitmate` file in your home directory.
+   This will create a `.commit-agent` file in your home directory.
 
 ## Usage
 
@@ -180,10 +180,10 @@ Check the installed version with:
 ai --version
 ```
 
-If it's not the [latest version](https://github.com/khulnasoft/commitmate/tags), run:
+If it's not the [latest version](https://github.com/khulnasoft/commit-agent/tags), run:
 
 ```bash
-npm update -g @khulnasoft/commitmate
+npm update -g @khulnasoft/commit-agent
 ```
 
 Or just use AI shell:
@@ -206,7 +206,7 @@ I am not a bash wizard, and am dying for access to the copilot CLI, and got impa
 
 ## Contributing
 
-If you want to help fix a bug or implement a feature in [Issues](https://github.com/khulnasoft/commitmate/issues) (tip: look out for the `help wanted` label), checkout the [Contribution Guide](CONTRIBUTING.md) to learn how to setup the project.
+If you want to help fix a bug or implement a feature in [Issues](https://github.com/khulnasoft/commit-agent/issues) (tip: look out for the `help wanted` label), checkout the [Contribution Guide](CONTRIBUTING.md) to learn how to setup the project.
 
 ## Credit
 

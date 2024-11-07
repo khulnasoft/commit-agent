@@ -1,17 +1,17 @@
 {
-  "name": "@khulnasoft/commitmate",
+  "name": "@khulnasoft/commit-agent",
   "description": "A CLI that converts natural language to shell commands.",
   "version": "1.0.14",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/khulnasoft/commitmate"
+    "url": "https://github.com/khulnasoft/commit-agent"
   },
   "files": [
     "dist"
   ],
   "bin": {
-    "commitmate": "./dist/cli.mjs",
+    "commit-agent": "./dist/cli.mjs",
     "ai": "./dist/cli.mjs"
   },
   "scripts": {
