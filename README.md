@@ -1,8 +1,8 @@
 # CommitMate
 
-<h4>
-   A CLI that converts natural language to shell commands.
-</h4>
+<a aria-label="khulnasoft logo" href="https://khulnasoft.com">
+  <img alt="" src="https://img.shields.io/badge/Made%20by%20khulnasoft-000000.svg?style=flat-square&logo=khulnasoft&labelColor=000">
+</a>
 <p>
    <a href="https://www.npmjs.com/package/@khulnasoft/commitmate"><img src="https://img.shields.io/npm/v/@khulnasoft/commitmate" alt="Current version"></a>
 </p>
@@ -12,7 +12,9 @@
 </p>
 
 <br>
-
+<h4>
+   A CLI that converts natural language to shell commands.
+</h4>
 # AI Shell
 
 ## Setup
