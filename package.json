@@ -1,7 +1,7 @@
 {
   "name": "@khulnasoft/commit-agent",
   "description": "A CLI that converts natural language to shell commands.",
-  "version": "1.0.14",
+  "version": "1.0.0",
   "type": "module",
   "repository": {
     "type": "git",
@@ -35,7 +35,9 @@
     "i18next": "^22.4.15",
     "ini": "^4.0.0",
     "kolorist": "^1.7.0",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "@types/dedent": "^version",
+    "@types/ini": "^version"
   },
   "devDependencies": {
     "@types/dedent": "^0.7.0",
